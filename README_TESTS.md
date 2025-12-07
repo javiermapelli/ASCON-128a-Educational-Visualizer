@@ -21,6 +21,8 @@ pytest test_ascon.py -v
 ```bash
 pip install pytest pytest-cov
 pytest test_ascon.py --cov=ASCON_128a --cov-report=html
+o si el modulo no es correcto probar:
+pytest test_ascon.py --cov=ASCON128a --cov-report=html
 ```
 
 ## 📊 Cobertura de Tests
@@ -139,4 +141,5 @@ Verifica que modificaciones al ciphertext son detectadas durante la verificació
 - [ASCON Specification v1.2](https://ascon.iaik.tugraz.at/)
 - [CAESAR Competition](https://competitions.cr.yp.to/caesar.html)
 - [NIST Lightweight Cryptography](https://csrc.nist.gov/projects/lightweight-cryptography)
+
 
