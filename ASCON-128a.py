@@ -1776,7 +1776,7 @@ visualizando cada transformación interna del proceso de cifrado autenticado.
 
 ═══════════════════════════════════════════════════════════════════════════
 
-Desarrollado con fines educativos | Versión 2.0 | 2024
+Desarrollado con fines educativos | Versión 2.0 | 2025
 """
         self.main_viz_text.insert('1.0', welcome)
     
